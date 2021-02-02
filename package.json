@@ -1,0 +1,22 @@
+{
+  "name": "multiplayervr",
+  "version": "1.0.0",
+  "description": "Creating a collaborative Virtual Reality environment using Unity/REST API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lambegraham/multiplayerVR.git"
+  },
+  "author": "lambegraham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lambegraham/multiplayerVR/issues"
+  },
+  "homepage": "https://github.com/lambegraham/multiplayerVR#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
