@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR;
@@ -10,6 +11,27 @@ public class MovementController : MonoBehaviour
     public List<XRController> controllers;
 
     public GameObject head = null;
+
+    [SerializeField]
+    TeleportationProvider teleportationProvider;
+    public GameObject MainVRPlayer;
+    public GameObject XRRigGameObject;
+    private void OnEnable()
+    {
+        teleportationProvider.endLocomotion += OnEndLocomotion;
+    }
+
+    private void OnDisable()
+    {
+        teleportationProvider.endLocomotion -= OnEndLocomotion;
+    }
+
+    private void OnEndLocomotion(LocomotionSystem obj)
+    {
+        Debug.Log("Teleportation is ended");
+        MainVRPlayer.transform.position = MainVRPlayer.transform.TransformPoint(XRRigGameObject.transform.localPosition);
+        XRRigGameObject.transform.localPosition = Vector3.zero;
+    }
 
     // Update is called once per frame
     void Update()
