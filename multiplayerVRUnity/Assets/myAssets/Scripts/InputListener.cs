@@ -24,6 +24,7 @@ public class InputListener : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        /*
         InputDeviceCharacteristics = UnityEngine.XR.InputDeviceCharacteristics.HeldInHand | InputDeviceCharacteristics.Controller | InputDeviceCharacteristics.Left; //Left Controller Logged
         InputDevices.GetDevicesAtXRNode(controllerNode, inputDevices);
         foreach(InputDevice inputDevice in inputDevices)
@@ -35,5 +36,6 @@ public class InputListener : MonoBehaviour
                 Debug.Log("Pressed primary button");
             }
         }
+        */
     }
 }
