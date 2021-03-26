@@ -42,7 +42,7 @@ public class InputListenerSecondaryButton : MonoBehaviour
         GetDevice();
         foreach (var device in devices)
         {
-            Debug.Log(device.name + " " + device.characteristics);
+            //Debug.Log(device.name + " " + device.characteristics);
 
             if (device.isValid)
             {
