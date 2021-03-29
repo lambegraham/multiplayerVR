@@ -8,6 +8,7 @@ public class UIManager : MonoBehaviour
     public GameObject UI_Gameobject;
     public GameObject UI_JoinMenu;
 
+
     // Start is called before the first frame update
     void Start()
     {

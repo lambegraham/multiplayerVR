@@ -14,7 +14,7 @@ public class SpawnManager : MonoBehaviour
     {
         if (PhotonNetwork.IsConnectedAndReady)
         {
-            //PhotonNetwork.Instantiate(GenericVRPlayerPrefab.name, spawnPosition, Quaternion.identity);
+            PhotonNetwork.Instantiate(GenericVRPlayerPrefab.name, spawnPosition, Quaternion.identity);
         }
     }
 
