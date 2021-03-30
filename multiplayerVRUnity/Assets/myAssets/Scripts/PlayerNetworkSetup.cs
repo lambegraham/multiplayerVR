@@ -9,7 +9,7 @@ public class PlayerNetworkSetup : MonoBehaviourPunCallbacks
     public GameObject LocalXRRigGameobject;
     public GameObject AvatarHeadGameobject;
     public GameObject AvatarBodyGameobject;
-
+    public GameObject MainAvatarGameObject;
 
     // Start is called before the first frame update
     void Start()
@@ -34,6 +34,7 @@ public class PlayerNetworkSetup : MonoBehaviourPunCallbacks
                     item.teleportationProvider = LocalXRRigGameobject.GetComponent<TeleportationProvider>();
                 }
             }
+            MainAvatarGameObject.AddComponent<AudioListener>();
         }
         else
         {
