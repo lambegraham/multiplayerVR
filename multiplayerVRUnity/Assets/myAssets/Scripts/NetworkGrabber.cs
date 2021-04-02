@@ -7,13 +7,13 @@ using Photon.Realtime;
 public class NetworkGrabber : MonoBehaviourPunCallbacks, IPunOwnershipCallbacks
 {
 
-    PhotonView photonView;
+    PhotonView myPhotonView;
     Rigidbody rb;
     public bool isBeingHeld = false;
 
     private void Awake()
     {
-        photonView = GetComponent<PhotonView>();
+        myPhotonView = GetComponent<PhotonView>();
     }
 
     // Start is called before the first frame update
@@ -28,7 +28,7 @@ public class NetworkGrabber : MonoBehaviourPunCallbacks, IPunOwnershipCallbacks
         if (isBeingHeld)
         {
             rb.isKinematic = true;
-            gameObject.layer = 13; //inHand layer
+            gameObject.layer = 12; //inHand layer
         }
         else
         {
@@ -40,9 +40,9 @@ public class NetworkGrabber : MonoBehaviourPunCallbacks, IPunOwnershipCallbacks
     public void OnSelectEnter()
     {
         Debug.Log("Object Grabbed");
-        photonView.RPC("StartNetworkedGrab", RpcTarget.AllBuffered);
+        myPhotonView.RPC("StartNetworkedGrab", RpcTarget.AllBuffered);
 
-        if(photonView.Owner == PhotonNetwork.LocalPlayer)
+        if(myPhotonView.Owner == PhotonNetwork.LocalPlayer)
         {
             Debug.Log("Object already owned");
         }
@@ -58,17 +58,17 @@ public class NetworkGrabber : MonoBehaviourPunCallbacks, IPunOwnershipCallbacks
 
     private void TransferOwnership()
     {
-        photonView.RequestOwnership();
+        myPhotonView.RequestOwnership();
     }
 
     public void OnOwnershipRequest(PhotonView targetView, Player requestingPlayer)
     {
-        if (targetView != photonView)
+        if (targetView != myPhotonView)
         {
             return;
         }
         Debug.Log("Ownership requested for: " + targetView.name + " from " + requestingPlayer.NickName);
-        photonView.TransferOwnership(requestingPlayer);
+        myPhotonView.TransferOwnership(requestingPlayer);
     }
 
     public void OnOwnershipTransfered(PhotonView targetView, Player previousOwner)
@@ -77,13 +77,13 @@ public class NetworkGrabber : MonoBehaviourPunCallbacks, IPunOwnershipCallbacks
     }
 
     [PunRPC]
-    public void StartNetworkedGrabbing()
+    public void StartNetworkedGrab()
     {
         isBeingHeld = true;
     }
 
     [PunRPC]
-    public void StopNetworkedGrabbing()
+    public void StopNetworkedGrab()
     {
         isBeingHeld = false;
     }

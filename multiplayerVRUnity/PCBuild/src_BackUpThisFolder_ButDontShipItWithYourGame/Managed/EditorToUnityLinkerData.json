@@ -1342,6 +1342,20 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Unity.XR.OpenVR.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Unity.XR.OpenVR.OpenVRSettings",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.XR.WindowsMixedReality.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.XR.WindowsMR.WindowsMRSettings",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "UnityEngine.SpatialTracking.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.SpatialTracking.TrackedPoseDriver",

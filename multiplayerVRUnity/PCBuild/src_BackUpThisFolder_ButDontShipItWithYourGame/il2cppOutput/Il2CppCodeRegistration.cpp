@@ -84,18 +84,23 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UICodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_PhotonUnityNetworkingCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_PhotonVoiceCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_InputSystemCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_Subsystem_RegistrationCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_SpatialTrackingCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_PhotonChatCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_PhotonUnityNetworking_UtilitiesCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_PhotonVoice_PUNCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_TextMeshProCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_ARSubsystemsCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_Interaction_ToolkitCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_InteractionSubsystemsCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_ManagementCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_PhotonUnityNetworking_DemosCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_OculusCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_OpenVRCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_WindowsMixedRealityCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule;
 extern const Il2CppCodeGenModule* g_CodeGenModules[];
-const Il2CppCodeGenModule* g_CodeGenModules[60] = 
+const Il2CppCodeGenModule* g_CodeGenModules[65] = 
 {
 	(&g_mscorlibCodeGenModule),
 	(&g_System_ConfigurationCodeGenModule),
@@ -147,35 +152,40 @@ const Il2CppCodeGenModule* g_CodeGenModules[60] =
 	(&g_PhotonUnityNetworkingCodeGenModule),
 	(&g_PhotonVoiceCodeGenModule),
 	(&g_Unity_InputSystemCodeGenModule),
+	(&g_Unity_Subsystem_RegistrationCodeGenModule),
 	(&g_UnityEngine_SpatialTrackingCodeGenModule),
 	(&g_PhotonChatCodeGenModule),
 	(&g_PhotonUnityNetworking_UtilitiesCodeGenModule),
 	(&g_PhotonVoice_PUNCodeGenModule),
 	(&g_Unity_TextMeshProCodeGenModule),
+	(&g_Unity_XR_ARSubsystemsCodeGenModule),
 	(&g_Unity_XR_Interaction_ToolkitCodeGenModule),
+	(&g_Unity_XR_InteractionSubsystemsCodeGenModule),
 	(&g_Unity_XR_ManagementCodeGenModule),
 	(&g_PhotonUnityNetworking_DemosCodeGenModule),
 	(&g_Unity_XR_OculusCodeGenModule),
+	(&g_Unity_XR_OpenVRCodeGenModule),
+	(&g_Unity_XR_WindowsMixedRealityCodeGenModule),
 	(&g_AssemblyU2DCSharpCodeGenModule),
 };
 extern const Il2CppCodeRegistration g_CodeRegistration;
 const Il2CppCodeRegistration g_CodeRegistration = 
 {
-	11,
+	12,
 	g_ReversePInvokeWrapperPointers,
-	23220,
+	25452,
 	g_Il2CppGenericMethodPointers,
-	5325,
+	5837,
 	g_Il2CppInvokerPointers,
-	9826,
+	10500,
 	g_AttributeGenerators,
-	895,
+	1074,
 	g_UnresolvedVirtualMethodPointers,
-	453,
+	866,
 	g_Il2CppInteropData,
 	0,
 	NULL,
-	60,
+	65,
 	g_CodeGenModules,
 };
 IL2CPP_EXTERN_C_CONST Il2CppMetadataRegistration g_MetadataRegistration;

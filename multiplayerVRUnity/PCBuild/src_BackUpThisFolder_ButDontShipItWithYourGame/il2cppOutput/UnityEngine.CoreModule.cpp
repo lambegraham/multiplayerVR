@@ -11724,6 +11724,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnsafeUtility_MemCpy_mA675903DD7350CC5EC
 	_il2cpp_icall_func = (UnsafeUtility_MemCpy_mA675903DD7350CC5EC22947C0899B18944E3578C_ftn)il2cpp_codegen_resolve_icall ("Unity.Collections.LowLevel.Unsafe.UnsafeUtility::MemCpy(System.Void*,System.Void*,System.Int64)");
 	_il2cpp_icall_func(___destination0, ___source1, ___size2);
 }
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeUtility::MemCpyReplicate(System.Void*,System.Void*,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnsafeUtility_MemCpyReplicate_mEDC15DE05FF5C303EB7E28DAFC3AB790190367FC (void* ___destination0, void* ___source1, int32_t ___size2, int32_t ___count3, const RuntimeMethod* method)
+{
+	typedef void (*UnsafeUtility_MemCpyReplicate_mEDC15DE05FF5C303EB7E28DAFC3AB790190367FC_ftn) (void*, void*, int32_t, int32_t);
+	static UnsafeUtility_MemCpyReplicate_mEDC15DE05FF5C303EB7E28DAFC3AB790190367FC_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (UnsafeUtility_MemCpyReplicate_mEDC15DE05FF5C303EB7E28DAFC3AB790190367FC_ftn)il2cpp_codegen_resolve_icall ("Unity.Collections.LowLevel.Unsafe.UnsafeUtility::MemCpyReplicate(System.Void*,System.Void*,System.Int32,System.Int32)");
+	_il2cpp_icall_func(___destination0, ___source1, ___size2, ___count3);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeUtility::MemCpyStride(System.Void*,System.Int32,System.Void*,System.Int32,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnsafeUtility_MemCpyStride_m9B2594714412AEAD04CA5B4392D30E8DD252CC6F (void* ___destination0, int32_t ___destinationStride1, void* ___source2, int32_t ___sourceStride3, int32_t ___elementSize4, int32_t ___count5, const RuntimeMethod* method)
+{
+	typedef void (*UnsafeUtility_MemCpyStride_m9B2594714412AEAD04CA5B4392D30E8DD252CC6F_ftn) (void*, int32_t, void*, int32_t, int32_t, int32_t);
+	static UnsafeUtility_MemCpyStride_m9B2594714412AEAD04CA5B4392D30E8DD252CC6F_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (UnsafeUtility_MemCpyStride_m9B2594714412AEAD04CA5B4392D30E8DD252CC6F_ftn)il2cpp_codegen_resolve_icall ("Unity.Collections.LowLevel.Unsafe.UnsafeUtility::MemCpyStride(System.Void*,System.Int32,System.Void*,System.Int32,System.Int32,System.Int32)");
+	_il2cpp_icall_func(___destination0, ___destinationStride1, ___source2, ___sourceStride3, ___elementSize4, ___count5);
+}
 // System.Void Unity.Collections.LowLevel.Unsafe.UnsafeUtility::MemMove(System.Void*,System.Void*,System.Int64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnsafeUtility_MemMove_mD69D22942EC15B58C448C07FFF8C53E181BC859C (void* ___destination0, void* ___source1, int64_t ___size2, const RuntimeMethod* method)
 {
@@ -12508,6 +12526,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Application_get_isBatchMode_m79DCFBCC7DE
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (Application_get_isBatchMode_m79DCFBCC7DEC6F98BA09697D73FDEEAF655E633C_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Application::get_isBatchMode()");
 	bool retVal = _il2cpp_icall_func();
+	return retVal;
+}
+// System.String UnityEngine.Application::get_streamingAssetsPath()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Application_get_streamingAssetsPath_m87163AE531BEB6A6588FABAD3207D829721CF31F (const RuntimeMethod* method)
+{
+	typedef String_t* (*Application_get_streamingAssetsPath_m87163AE531BEB6A6588FABAD3207D829721CF31F_ftn) ();
+	static Application_get_streamingAssetsPath_m87163AE531BEB6A6588FABAD3207D829721CF31F_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Application_get_streamingAssetsPath_m87163AE531BEB6A6588FABAD3207D829721CF31F_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Application::get_streamingAssetsPath()");
+	String_t* retVal = _il2cpp_icall_func();
 	return retVal;
 }
 // System.String UnityEngine.Application::get_persistentDataPath()

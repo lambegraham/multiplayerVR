@@ -12346,11 +12346,11 @@ public:
 	// System.Int32 System.IO.FileSystemInfo::_dataInitialised
 	int32_t ____dataInitialised_2;
 	// System.String System.IO.FileSystemInfo::FullPath
-	String_t* ___FullPath_3;
+	String_t* ___FullPath_5;
 	// System.String System.IO.FileSystemInfo::OriginalPath
-	String_t* ___OriginalPath_4;
+	String_t* ___OriginalPath_6;
 	// System.String System.IO.FileSystemInfo::_displayPath
-	String_t* ____displayPath_5;
+	String_t* ____displayPath_7;
 
 public:
 	inline static int32_t get_offset_of__data_1() { return static_cast<int32_t>(offsetof(FileSystemInfo_t6831B76FBA37F7181E4A5AEB28194730EB356A3D, ____data_1)); }
@@ -12369,31 +12369,31 @@ public:
 		____dataInitialised_2 = value;
 	}
 
-	inline static int32_t get_offset_of_FullPath_3() { return static_cast<int32_t>(offsetof(FileSystemInfo_t6831B76FBA37F7181E4A5AEB28194730EB356A3D, ___FullPath_3)); }
-	inline String_t* get_FullPath_3() const { return ___FullPath_3; }
-	inline String_t** get_address_of_FullPath_3() { return &___FullPath_3; }
-	inline void set_FullPath_3(String_t* value)
+	inline static int32_t get_offset_of_FullPath_5() { return static_cast<int32_t>(offsetof(FileSystemInfo_t6831B76FBA37F7181E4A5AEB28194730EB356A3D, ___FullPath_5)); }
+	inline String_t* get_FullPath_5() const { return ___FullPath_5; }
+	inline String_t** get_address_of_FullPath_5() { return &___FullPath_5; }
+	inline void set_FullPath_5(String_t* value)
 	{
-		___FullPath_3 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___FullPath_3), (void*)value);
+		___FullPath_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___FullPath_5), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_OriginalPath_4() { return static_cast<int32_t>(offsetof(FileSystemInfo_t6831B76FBA37F7181E4A5AEB28194730EB356A3D, ___OriginalPath_4)); }
-	inline String_t* get_OriginalPath_4() const { return ___OriginalPath_4; }
-	inline String_t** get_address_of_OriginalPath_4() { return &___OriginalPath_4; }
-	inline void set_OriginalPath_4(String_t* value)
+	inline static int32_t get_offset_of_OriginalPath_6() { return static_cast<int32_t>(offsetof(FileSystemInfo_t6831B76FBA37F7181E4A5AEB28194730EB356A3D, ___OriginalPath_6)); }
+	inline String_t* get_OriginalPath_6() const { return ___OriginalPath_6; }
+	inline String_t** get_address_of_OriginalPath_6() { return &___OriginalPath_6; }
+	inline void set_OriginalPath_6(String_t* value)
 	{
-		___OriginalPath_4 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___OriginalPath_4), (void*)value);
+		___OriginalPath_6 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___OriginalPath_6), (void*)value);
 	}
 
-	inline static int32_t get_offset_of__displayPath_5() { return static_cast<int32_t>(offsetof(FileSystemInfo_t6831B76FBA37F7181E4A5AEB28194730EB356A3D, ____displayPath_5)); }
-	inline String_t* get__displayPath_5() const { return ____displayPath_5; }
-	inline String_t** get_address_of__displayPath_5() { return &____displayPath_5; }
-	inline void set__displayPath_5(String_t* value)
+	inline static int32_t get_offset_of__displayPath_7() { return static_cast<int32_t>(offsetof(FileSystemInfo_t6831B76FBA37F7181E4A5AEB28194730EB356A3D, ____displayPath_7)); }
+	inline String_t* get__displayPath_7() const { return ____displayPath_7; }
+	inline String_t** get_address_of__displayPath_7() { return &____displayPath_7; }
+	inline void set__displayPath_7(String_t* value)
 	{
-		____displayPath_5 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&____displayPath_5), (void*)value);
+		____displayPath_7 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____displayPath_7), (void*)value);
 	}
 };
 
@@ -12609,16 +12609,16 @@ struct  FileInfo_tF8C1D41E1ABDAC19BF4F76A491DD28DD8DBEE35C  : public FileSystemI
 {
 public:
 	// System.String System.IO.FileInfo::_name
-	String_t* ____name_6;
+	String_t* ____name_8;
 
 public:
-	inline static int32_t get_offset_of__name_6() { return static_cast<int32_t>(offsetof(FileInfo_tF8C1D41E1ABDAC19BF4F76A491DD28DD8DBEE35C, ____name_6)); }
-	inline String_t* get__name_6() const { return ____name_6; }
-	inline String_t** get_address_of__name_6() { return &____name_6; }
-	inline void set__name_6(String_t* value)
+	inline static int32_t get_offset_of__name_8() { return static_cast<int32_t>(offsetof(FileInfo_tF8C1D41E1ABDAC19BF4F76A491DD28DD8DBEE35C, ____name_8)); }
+	inline String_t* get__name_8() const { return ____name_8; }
+	inline String_t** get_address_of__name_8() { return &____name_8; }
+	inline void set__name_8(String_t* value)
 	{
-		____name_6 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&____name_6), (void*)value);
+		____name_8 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____name_8), (void*)value);
 	}
 };
 

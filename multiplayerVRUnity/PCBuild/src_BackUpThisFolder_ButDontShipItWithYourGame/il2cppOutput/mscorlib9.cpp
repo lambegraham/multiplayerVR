@@ -11294,11 +11294,11 @@ public:
 	// System.Int32 System.IO.FileSystemInfo::_dataInitialised
 	int32_t ____dataInitialised_2;
 	// System.String System.IO.FileSystemInfo::FullPath
-	String_t* ___FullPath_3;
+	String_t* ___FullPath_5;
 	// System.String System.IO.FileSystemInfo::OriginalPath
-	String_t* ___OriginalPath_4;
+	String_t* ___OriginalPath_6;
 	// System.String System.IO.FileSystemInfo::_displayPath
-	String_t* ____displayPath_5;
+	String_t* ____displayPath_7;
 
 public:
 	inline static int32_t get_offset_of__data_1() { return static_cast<int32_t>(offsetof(FileSystemInfo_t6831B76FBA37F7181E4A5AEB28194730EB356A3D, ____data_1)); }
@@ -11317,31 +11317,31 @@ public:
 		____dataInitialised_2 = value;
 	}
 
-	inline static int32_t get_offset_of_FullPath_3() { return static_cast<int32_t>(offsetof(FileSystemInfo_t6831B76FBA37F7181E4A5AEB28194730EB356A3D, ___FullPath_3)); }
-	inline String_t* get_FullPath_3() const { return ___FullPath_3; }
-	inline String_t** get_address_of_FullPath_3() { return &___FullPath_3; }
-	inline void set_FullPath_3(String_t* value)
+	inline static int32_t get_offset_of_FullPath_5() { return static_cast<int32_t>(offsetof(FileSystemInfo_t6831B76FBA37F7181E4A5AEB28194730EB356A3D, ___FullPath_5)); }
+	inline String_t* get_FullPath_5() const { return ___FullPath_5; }
+	inline String_t** get_address_of_FullPath_5() { return &___FullPath_5; }
+	inline void set_FullPath_5(String_t* value)
 	{
-		___FullPath_3 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___FullPath_3), (void*)value);
+		___FullPath_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___FullPath_5), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_OriginalPath_4() { return static_cast<int32_t>(offsetof(FileSystemInfo_t6831B76FBA37F7181E4A5AEB28194730EB356A3D, ___OriginalPath_4)); }
-	inline String_t* get_OriginalPath_4() const { return ___OriginalPath_4; }
-	inline String_t** get_address_of_OriginalPath_4() { return &___OriginalPath_4; }
-	inline void set_OriginalPath_4(String_t* value)
+	inline static int32_t get_offset_of_OriginalPath_6() { return static_cast<int32_t>(offsetof(FileSystemInfo_t6831B76FBA37F7181E4A5AEB28194730EB356A3D, ___OriginalPath_6)); }
+	inline String_t* get_OriginalPath_6() const { return ___OriginalPath_6; }
+	inline String_t** get_address_of_OriginalPath_6() { return &___OriginalPath_6; }
+	inline void set_OriginalPath_6(String_t* value)
 	{
-		___OriginalPath_4 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___OriginalPath_4), (void*)value);
+		___OriginalPath_6 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___OriginalPath_6), (void*)value);
 	}
 
-	inline static int32_t get_offset_of__displayPath_5() { return static_cast<int32_t>(offsetof(FileSystemInfo_t6831B76FBA37F7181E4A5AEB28194730EB356A3D, ____displayPath_5)); }
-	inline String_t* get__displayPath_5() const { return ____displayPath_5; }
-	inline String_t** get_address_of__displayPath_5() { return &____displayPath_5; }
-	inline void set__displayPath_5(String_t* value)
+	inline static int32_t get_offset_of__displayPath_7() { return static_cast<int32_t>(offsetof(FileSystemInfo_t6831B76FBA37F7181E4A5AEB28194730EB356A3D, ____displayPath_7)); }
+	inline String_t* get__displayPath_7() const { return ____displayPath_7; }
+	inline String_t** get_address_of__displayPath_7() { return &____displayPath_7; }
+	inline void set__displayPath_7(String_t* value)
 	{
-		____displayPath_5 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&____displayPath_5), (void*)value);
+		____displayPath_7 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____displayPath_7), (void*)value);
 	}
 };
 
@@ -13255,8 +13255,6 @@ inline void Dictionary_2__ctor_mF0DECB37208B782E5DC487657101B9FBFA2491C8 (Dictio
 {
 	((  void (*) (Dictionary_2_tB2446BE20A444C4EB99DF3B94D5263DC7ACEBE08 *, const RuntimeMethod*))Dictionary_2__ctor_m2C7E51568033239B506E15E7804A0B8658246498_gshared)(__this, method);
 }
-// System.Void System.LocalDataStoreMgr::FreeDataSlot(System.Int32,System.Int64)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalDataStoreMgr_FreeDataSlot_mD32D43F69A116AAE4F0233FD8DE999D81B3643FA (LocalDataStoreMgr_t1964DDB9F2BE154BE3159A7507D0D0CCBF8FDCA9 * __this, int32_t ___slot0, int64_t ___cookie1, const RuntimeMethod* method);
 // System.Void System.ThrowHelper::ThrowArgumentOutOfRangeException()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThrowHelper_ThrowArgumentOutOfRangeException_mBA2AF20A35144E0C43CD721A22EAC9FCA15D6550 (const RuntimeMethod* method);
 #ifdef __clang__
@@ -13803,7 +13801,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileSystemInfo__ctor_m22B50C1300480DC70B
 	}
 	{
 		__this->set__dataInitialised_2((-1));
-		__this->set__displayPath_5(_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		__this->set__displayPath_7(_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		MarshalByRefObject__ctor_mD1C6F1D191B1A50DC93E8B214BCCA9BD93FDE850(__this, /*hidden argument*/NULL);
 		return;
 	}
@@ -13819,7 +13817,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileSystemInfo__ctor_mC1CECDE3DB4924A834
 	}
 	{
 		__this->set__dataInitialised_2((-1));
-		__this->set__displayPath_5(_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		__this->set__displayPath_7(_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		MarshalByRefObject__ctor_mD1C6F1D191B1A50DC93E8B214BCCA9BD93FDE850(__this, /*hidden argument*/NULL);
 		SerializationInfo_t1BB80E9C9DEA52DBF464487234B045E2930ADA26 * L_0 = ___info0;
 		if (L_0)
@@ -13840,11 +13838,11 @@ IL_0026:
 		String_t* L_3 = SerializationInfo_GetString_m06805A4E368E0B98D5FA70A9333B277CBDD84CF4(L_2, _stringLiteral52375990FFBBE8D05DAC58CA9E75FCFB2A2333BC, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Path_t0B99A4B924A6FDF08814FFA8DD4CD121ED1A0752_il2cpp_TypeInfo_var);
 		String_t* L_4 = Path_GetFullPathInternal_m4FA3EA56940FB51BFEBA5C117FC3F2E2F0993CD4(L_3, /*hidden argument*/NULL);
-		__this->set_FullPath_3(L_4);
+		__this->set_FullPath_5(L_4);
 		SerializationInfo_t1BB80E9C9DEA52DBF464487234B045E2930ADA26 * L_5 = ___info0;
 		NullCheck(L_5);
 		String_t* L_6 = SerializationInfo_GetString_m06805A4E368E0B98D5FA70A9333B277CBDD84CF4(L_5, _stringLiteral0388602952D914991E53E62048DDDA33B540AC2A, /*hidden argument*/NULL);
-		__this->set_OriginalPath_4(L_6);
+		__this->set_OriginalPath_6(L_6);
 		__this->set__dataInitialised_2((-1));
 		return;
 	}
@@ -13853,7 +13851,7 @@ IL_0026:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileSystemInfo_get_FullName_mAFC461A31757C1809E9A6B459BEA1FFF87BD1A54 (FileSystemInfo_t6831B76FBA37F7181E4A5AEB28194730EB356A3D * __this, const RuntimeMethod* method)
 {
 	{
-		String_t* L_0 = __this->get_FullPath_3();
+		String_t* L_0 = __this->get_FullPath_5();
 		return L_0;
 	}
 }
@@ -13861,7 +13859,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileSystemInfo_get_FullName_mAFC461
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileSystemInfo_Refresh_m2A291853AC8436A6A23A35B8D00C9CC33F351979 (FileSystemInfo_t6831B76FBA37F7181E4A5AEB28194730EB356A3D * __this, const RuntimeMethod* method)
 {
 	{
-		String_t* L_0 = __this->get_FullPath_3();
+		String_t* L_0 = __this->get_FullPath_5();
 		MonoIOStat_t819C03DA1902AA493BDBF4B55E76DCE6FB16A124 * L_1 = __this->get_address_of__data_1();
 		int32_t L_2 = File_FillAttributeInfo_m8FF0F8B5A94968B8C87E54850DF60D3825EEAD53(L_0, (MonoIOStat_t819C03DA1902AA493BDBF4B55E76DCE6FB16A124 *)L_1, (bool)0, (bool)0, /*hidden argument*/NULL);
 		__this->set__dataInitialised_2(L_2);
@@ -13879,14 +13877,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileSystemInfo_GetObjectData_m23803BAEA1
 	}
 	{
 		SerializationInfo_t1BB80E9C9DEA52DBF464487234B045E2930ADA26 * L_0 = ___info0;
-		String_t* L_1 = __this->get_OriginalPath_4();
+		String_t* L_1 = __this->get_OriginalPath_6();
 		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_2 = { reinterpret_cast<intptr_t> (String_t_0_0_0_var) };
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
 		Type_t * L_3 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6(L_2, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		SerializationInfo_AddValue_mE0A104C01EFA55A83D4CAE4662A9B4C6459911FC(L_0, _stringLiteral0388602952D914991E53E62048DDDA33B540AC2A, L_1, L_3, /*hidden argument*/NULL);
 		SerializationInfo_t1BB80E9C9DEA52DBF464487234B045E2930ADA26 * L_4 = ___info0;
-		String_t* L_5 = __this->get_FullPath_3();
+		String_t* L_5 = __this->get_FullPath_5();
 		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_6 = { reinterpret_cast<intptr_t> (String_t_0_0_0_var) };
 		Type_t * L_7 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6(L_6, /*hidden argument*/NULL);
 		NullCheck(L_4);
@@ -13898,7 +13896,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileSystemInfo_GetObjectData_m23803BAEA1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileSystemInfo_get_DisplayPath_m9A14D10849FCBD74D3854A8B12D9407E007258FF (FileSystemInfo_t6831B76FBA37F7181E4A5AEB28194730EB356A3D * __this, const RuntimeMethod* method)
 {
 	{
-		String_t* L_0 = __this->get__displayPath_5();
+		String_t* L_0 = __this->get__displayPath_7();
 		return L_0;
 	}
 }
@@ -13907,7 +13905,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileSystemInfo_set_DisplayPath_m7CAD47FB
 {
 	{
 		String_t* L_0 = ___value0;
-		__this->set__displayPath_5(L_0);
+		__this->set__displayPath_7(L_0);
 		return;
 	}
 }
@@ -24822,6 +24820,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StreamReader_get_LeaveOpen_m666D02CB6FF3
 	{
 		bool L_0 = __this->get__closable_19();
 		return (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
+	}
+}
+// System.Boolean System.IO.StreamReader::get_EndOfStream()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StreamReader_get_EndOfStream_m27AD6266C30A5EB091918D822BD201F08A4D4423 (StreamReader_t62E68063760DCD2FC036AE132DE69C24B7ED001E * __this, const RuntimeMethod* method)
+{
+	{
+		Stream_tFC50657DD5AAB87770987F9179D934A51D99D5E7 * L_0 = __this->get_stream_5();
+		if (L_0)
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		__Error_ReaderClosed_mDEB32103741D23496C28421032CA44B7DB2E0717(/*hidden argument*/NULL);
+	}
+
+IL_000d:
+	{
+		StreamReader_CheckAsyncTaskInProgress_m26526DB4D2479414C1405B52388FB222DF49C446(__this, /*hidden argument*/NULL);
+		int32_t L_1 = __this->get_charPos_11();
+		int32_t L_2 = __this->get_charLen_12();
+		if ((((int32_t)L_1) >= ((int32_t)L_2)))
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0023:
+	{
+		int32_t L_3 = VirtFuncInvoker0< int32_t >::Invoke(16 /* System.Int32 System.IO.StreamReader::ReadBuffer() */, __this);
+		return (bool)((((int32_t)L_3) == ((int32_t)0))? 1 : 0);
 	}
 }
 // System.Int32 System.IO.StreamReader::Peek()
@@ -37426,118 +37458,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalDataStoreMgr__ctor_m8AB872E90E987DD
 		Dictionary_2__ctor_mF0DECB37208B782E5DC487657101B9FBFA2491C8(L_2, /*hidden argument*/Dictionary_2__ctor_mF0DECB37208B782E5DC487657101B9FBFA2491C8_RuntimeMethod_var);
 		__this->set_m_KeyToSlotMap_6(L_2);
 		Object__ctor_m925ECA5E85CA100E3FB86A4F9E15C120E9A184C0(__this, /*hidden argument*/NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void System.LocalDataStoreSlot::.ctor(System.LocalDataStoreMgr,System.Int32,System.Int64)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalDataStoreSlot__ctor_mB1C1592C2941720C53B2F21CBBB875667FF23D89 (LocalDataStoreSlot_tFE02E6A0F07F1CD042342F13B3C4E8E64A550C8E * __this, LocalDataStoreMgr_t1964DDB9F2BE154BE3159A7507D0D0CCBF8FDCA9 * ___mgr0, int32_t ___slot1, int64_t ___cookie2, const RuntimeMethod* method)
-{
-	{
-		Object__ctor_m925ECA5E85CA100E3FB86A4F9E15C120E9A184C0(__this, /*hidden argument*/NULL);
-		LocalDataStoreMgr_t1964DDB9F2BE154BE3159A7507D0D0CCBF8FDCA9 * L_0 = ___mgr0;
-		__this->set_m_mgr_0(L_0);
-		int32_t L_1 = ___slot1;
-		__this->set_m_slot_1(L_1);
-		int64_t L_2 = ___cookie2;
-		__this->set_m_cookie_2(L_2);
-		return;
-	}
-}
-// System.LocalDataStoreMgr System.LocalDataStoreSlot::get_Manager()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LocalDataStoreMgr_t1964DDB9F2BE154BE3159A7507D0D0CCBF8FDCA9 * LocalDataStoreSlot_get_Manager_m75417D224C02173EC33CFD9BF494E82A70B21EDD (LocalDataStoreSlot_tFE02E6A0F07F1CD042342F13B3C4E8E64A550C8E * __this, const RuntimeMethod* method)
-{
-	{
-		LocalDataStoreMgr_t1964DDB9F2BE154BE3159A7507D0D0CCBF8FDCA9 * L_0 = __this->get_m_mgr_0();
-		return L_0;
-	}
-}
-// System.Int32 System.LocalDataStoreSlot::get_Slot()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LocalDataStoreSlot_get_Slot_m921BC8D705F8D4BB4D623B895B3DD6055166DD79 (LocalDataStoreSlot_tFE02E6A0F07F1CD042342F13B3C4E8E64A550C8E * __this, const RuntimeMethod* method)
-{
-	{
-		int32_t L_0 = __this->get_m_slot_1();
-		return L_0;
-	}
-}
-// System.Int64 System.LocalDataStoreSlot::get_Cookie()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t LocalDataStoreSlot_get_Cookie_m1D41A9C92E407A3AC6AB015F4663D0F260EBF2C5 (LocalDataStoreSlot_tFE02E6A0F07F1CD042342F13B3C4E8E64A550C8E * __this, const RuntimeMethod* method)
-{
-	{
-		int64_t L_0 = __this->get_m_cookie_2();
-		return L_0;
-	}
-}
-// System.Void System.LocalDataStoreSlot::Finalize()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalDataStoreSlot_Finalize_m47EF70E9DF2C22893FBA4150F8A94F8B23590DD7 (LocalDataStoreSlot_tFE02E6A0F07F1CD042342F13B3C4E8E64A550C8E * __this, const RuntimeMethod* method)
-{
-	LocalDataStoreMgr_t1964DDB9F2BE154BE3159A7507D0D0CCBF8FDCA9 * V_0 = NULL;
-	int32_t V_1 = 0;
-	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 2);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
-
-IL_0000:
-	try
-	{ // begin try (depth: 1)
-		{
-			LocalDataStoreMgr_t1964DDB9F2BE154BE3159A7507D0D0CCBF8FDCA9 * L_0 = __this->get_m_mgr_0();
-			V_0 = L_0;
-			LocalDataStoreMgr_t1964DDB9F2BE154BE3159A7507D0D0CCBF8FDCA9 * L_1 = V_0;
-			if (L_1)
-			{
-				goto IL_000c;
-			}
-		}
-
-IL_000a:
-		{
-			IL2CPP_LEAVE(0x30, FINALLY_0029);
-		}
-
-IL_000c:
-		{
-			int32_t L_2 = __this->get_m_slot_1();
-			V_1 = L_2;
-			__this->set_m_slot_1((-1));
-			LocalDataStoreMgr_t1964DDB9F2BE154BE3159A7507D0D0CCBF8FDCA9 * L_3 = V_0;
-			int32_t L_4 = V_1;
-			int64_t L_5 = __this->get_m_cookie_2();
-			NullCheck(L_3);
-			LocalDataStoreMgr_FreeDataSlot_mD32D43F69A116AAE4F0233FD8DE999D81B3643FA(L_3, L_4, L_5, /*hidden argument*/NULL);
-			IL2CPP_LEAVE(0x30, FINALLY_0029);
-		}
-	} // end try (depth: 1)
-	catch(Il2CppExceptionWrapper& e)
-	{
-		__last_unhandled_exception = (Exception_t *)e.ex;
-		goto FINALLY_0029;
-	}
-
-FINALLY_0029:
-	{ // begin finally (depth: 1)
-		Object_Finalize_m4015B7D3A44DE125C5FE34D7276CD4697C06F380(__this, /*hidden argument*/NULL);
-		IL2CPP_END_FINALLY(41)
-	} // end finally (depth: 1)
-	IL2CPP_CLEANUP(41)
-	{
-		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
-		IL2CPP_JUMP_TBL(0x30, IL_0030)
-	}
-
-IL_0030:
-	{
 		return;
 	}
 }

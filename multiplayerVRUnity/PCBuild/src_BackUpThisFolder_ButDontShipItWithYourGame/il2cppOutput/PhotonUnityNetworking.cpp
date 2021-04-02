@@ -1003,10 +1003,10 @@ IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mDA22758D73530683C950C5CCF39BD
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mE8820728C36ECF29B807E22E9B5774336027A18D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mF414B95AA074B814E43111D09C65833329344E34_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Capacity_mB976106DA11B4155CBC654A4FEAF355280834D8B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m0AEC7165BCDA1870BB35D5B1BE47F1F0EAE89C76_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m0FEDB151275697CDC0F033E62A68F184AAC11E62_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m4151A68BD4CB1D737213E7595F574987F8C812B4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m507C9149FF7F83AAC72C29091E745D557DA47D22_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m52793036D5E41E8E25DCC5C033380C44D7596903_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_mEB37E10093753673D3D42E22AC6E0F0E4F20897E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_mF108D042E84E9435217ED84C2FCF8440B5F54434_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_mF7F13FD4B9DB29C78778EDB5271422CDBAA45E2F_RuntimeMethod_var;
@@ -12712,7 +12712,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_Clear_m33B9E3FC1A7C9DF40DF154F08D
 // System.Void System.Collections.Generic.List`1<System.Int32>::Add(!0)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_Add_m50C0D1F69B2EF31137658E2F052EBBAC7BF82771_gshared (List_1_tE1526161A558A17A39A8B69D8EEF3801393B6226 * __this, int32_t ___item0, const RuntimeMethod* method);
 // System.Int32 System.Collections.Generic.List`1<System.Int32>::get_Count()
-IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m52793036D5E41E8E25DCC5C033380C44D7596903_gshared_inline (List_1_tE1526161A558A17A39A8B69D8EEF3801393B6226 * __this, const RuntimeMethod* method);
+IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m0AEC7165BCDA1870BB35D5B1BE47F1F0EAE89C76_gshared_inline (List_1_tE1526161A558A17A39A8B69D8EEF3801393B6226 * __this, const RuntimeMethod* method);
 // !0[] System.Collections.Generic.List`1<System.Int32>::ToArray()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Int32U5BU5D_t2B9E4FDDDB9F0A00EC0AC631BA2DA915EB1ECF83* List_1_ToArray_mFEF088E03E18EF79C06317909C301876B3037D98_gshared (List_1_tE1526161A558A17A39A8B69D8EEF3801393B6226 * __this, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1<System.Int32>::.ctor()
@@ -13250,9 +13250,9 @@ inline void List_1_Add_m50C0D1F69B2EF31137658E2F052EBBAC7BF82771 (List_1_tE15261
 	((  void (*) (List_1_tE1526161A558A17A39A8B69D8EEF3801393B6226 *, int32_t, const RuntimeMethod*))List_1_Add_m50C0D1F69B2EF31137658E2F052EBBAC7BF82771_gshared)(__this, ___item0, method);
 }
 // System.Int32 System.Collections.Generic.List`1<System.Int32>::get_Count()
-inline int32_t List_1_get_Count_m52793036D5E41E8E25DCC5C033380C44D7596903_inline (List_1_tE1526161A558A17A39A8B69D8EEF3801393B6226 * __this, const RuntimeMethod* method)
+inline int32_t List_1_get_Count_m0AEC7165BCDA1870BB35D5B1BE47F1F0EAE89C76_inline (List_1_tE1526161A558A17A39A8B69D8EEF3801393B6226 * __this, const RuntimeMethod* method)
 {
-	return ((  int32_t (*) (List_1_tE1526161A558A17A39A8B69D8EEF3801393B6226 *, const RuntimeMethod*))List_1_get_Count_m52793036D5E41E8E25DCC5C033380C44D7596903_gshared_inline)(__this, method);
+	return ((  int32_t (*) (List_1_tE1526161A558A17A39A8B69D8EEF3801393B6226 *, const RuntimeMethod*))List_1_get_Count_m0AEC7165BCDA1870BB35D5B1BE47F1F0EAE89C76_gshared_inline)(__this, method);
 }
 // !0[] System.Collections.Generic.List`1<System.Int32>::ToArray()
 inline Int32U5BU5D_t2B9E4FDDDB9F0A00EC0AC631BA2DA915EB1ECF83* List_1_ToArray_mFEF088E03E18EF79C06317909C301876B3037D98 (List_1_tE1526161A558A17A39A8B69D8EEF3801393B6226 * __this, const RuntimeMethod* method)
@@ -18707,7 +18707,7 @@ IL_00ca:
 	{
 		List_1_tE1526161A558A17A39A8B69D8EEF3801393B6226 * L_29 = __this->get_reusableIntList_22();
 		NullCheck(L_29);
-		int32_t L_30 = List_1_get_Count_m52793036D5E41E8E25DCC5C033380C44D7596903_inline(L_29, /*hidden argument*/List_1_get_Count_m52793036D5E41E8E25DCC5C033380C44D7596903_RuntimeMethod_var);
+		int32_t L_30 = List_1_get_Count_m0AEC7165BCDA1870BB35D5B1BE47F1F0EAE89C76_inline(L_29, /*hidden argument*/List_1_get_Count_m0AEC7165BCDA1870BB35D5B1BE47F1F0EAE89C76_RuntimeMethod_var);
 		G_B19_0 = ((((int32_t)L_30) > ((int32_t)0))? 1 : 0);
 		goto IL_00de;
 	}
@@ -18999,7 +18999,7 @@ IL_00de:
 	{
 		List_1_tE1526161A558A17A39A8B69D8EEF3801393B6226 * L_31 = __this->get_reusableIntList_22();
 		NullCheck(L_31);
-		int32_t L_32 = List_1_get_Count_m52793036D5E41E8E25DCC5C033380C44D7596903_inline(L_31, /*hidden argument*/List_1_get_Count_m52793036D5E41E8E25DCC5C033380C44D7596903_RuntimeMethod_var);
+		int32_t L_32 = List_1_get_Count_m0AEC7165BCDA1870BB35D5B1BE47F1F0EAE89C76_inline(L_31, /*hidden argument*/List_1_get_Count_m0AEC7165BCDA1870BB35D5B1BE47F1F0EAE89C76_RuntimeMethod_var);
 		G_B22_0 = ((((int32_t)L_32) > ((int32_t)0))? 1 : 0);
 		goto IL_00f2;
 	}
@@ -35736,7 +35736,7 @@ IL_00b1:
 		int32_t L_20 = V_6;
 		List_1_tE1526161A558A17A39A8B69D8EEF3801393B6226 * L_21 = V_0;
 		NullCheck(L_21);
-		int32_t L_22 = List_1_get_Count_m52793036D5E41E8E25DCC5C033380C44D7596903_inline(L_21, /*hidden argument*/List_1_get_Count_m52793036D5E41E8E25DCC5C033380C44D7596903_RuntimeMethod_var);
+		int32_t L_22 = List_1_get_Count_m0AEC7165BCDA1870BB35D5B1BE47F1F0EAE89C76_inline(L_21, /*hidden argument*/List_1_get_Count_m0AEC7165BCDA1870BB35D5B1BE47F1F0EAE89C76_RuntimeMethod_var);
 		V_8 = (bool)((((int32_t)L_20) < ((int32_t)L_22))? 1 : 0);
 		bool L_23 = V_8;
 		if (L_23)
@@ -35748,7 +35748,7 @@ IL_00b1:
 		// if (removeKeys.Count > 0)
 		List_1_tE1526161A558A17A39A8B69D8EEF3801393B6226 * L_24 = V_0;
 		NullCheck(L_24);
-		int32_t L_25 = List_1_get_Count_m52793036D5E41E8E25DCC5C033380C44D7596903_inline(L_24, /*hidden argument*/List_1_get_Count_m52793036D5E41E8E25DCC5C033380C44D7596903_RuntimeMethod_var);
+		int32_t L_25 = List_1_get_Count_m0AEC7165BCDA1870BB35D5B1BE47F1F0EAE89C76_inline(L_24, /*hidden argument*/List_1_get_Count_m0AEC7165BCDA1870BB35D5B1BE47F1F0EAE89C76_RuntimeMethod_var);
 		V_9 = (bool)((((int32_t)L_25) > ((int32_t)0))? 1 : 0);
 		bool L_26 = V_9;
 		if (!L_26)
@@ -35771,7 +35771,7 @@ IL_00b1:
 		// Debug.Log("New level loaded. Removed " + removeKeys.Count + " scene view IDs from last level.");
 		List_1_tE1526161A558A17A39A8B69D8EEF3801393B6226 * L_29 = V_0;
 		NullCheck(L_29);
-		int32_t L_30 = List_1_get_Count_m52793036D5E41E8E25DCC5C033380C44D7596903_inline(L_29, /*hidden argument*/List_1_get_Count_m52793036D5E41E8E25DCC5C033380C44D7596903_RuntimeMethod_var);
+		int32_t L_30 = List_1_get_Count_m0AEC7165BCDA1870BB35D5B1BE47F1F0EAE89C76_inline(L_29, /*hidden argument*/List_1_get_Count_m0AEC7165BCDA1870BB35D5B1BE47F1F0EAE89C76_RuntimeMethod_var);
 		int32_t L_31 = L_30;
 		RuntimeObject * L_32 = Box(Int32_t585191389E07734F19F3156FF88FB3EF4800D102_il2cpp_TypeInfo_var, &L_31);
 		String_t* L_33 = String_Concat_m2E1F71C491D2429CC80A28745488FEA947BB7AAC(_stringLiteral7C78DC65A623830F76C71CACA4E536F4A967FA62, L_32, _stringLiteral4076EB78CDDC49401C5A1D26BB5A97034A5FAF6D, /*hidden argument*/NULL);
@@ -41036,7 +41036,7 @@ IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA
 		return (ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A*)L_0;
 	}
 }
-IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m52793036D5E41E8E25DCC5C033380C44D7596903_gshared_inline (List_1_tE1526161A558A17A39A8B69D8EEF3801393B6226 * __this, const RuntimeMethod* method)
+IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m0AEC7165BCDA1870BB35D5B1BE47F1F0EAE89C76_gshared_inline (List_1_tE1526161A558A17A39A8B69D8EEF3801393B6226 * __this, const RuntimeMethod* method)
 {
 	{
 		int32_t L_0 = (int32_t)__this->get__size_2();

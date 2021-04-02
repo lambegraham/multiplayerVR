@@ -11811,6 +11811,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_tE519E5BBCA48F8FEAE68926638261BD
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Object_ToString_m7A4BBACD14901DD0181038A25BED62520D273EDC (Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0 * ___obj0, const RuntimeMethod* method);
 // UnityEngine.Object UnityEngine.Object::Internal_InstantiateSingle_Injected(UnityEngine.Object,UnityEngine.Vector3&,UnityEngine.Quaternion&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0 * Object_Internal_InstantiateSingle_Injected_m04E25C97D5848B7AA54178A5448744A0DEB1B62E (Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0 * ___data0, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * ___pos1, Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357 * ___rot2, const RuntimeMethod* method);
+// UnityEngine.Vector3 UnityEngine.Plane::get_normal()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  Plane_get_normal_m203D43F51C449990214D04F332E8261295162E84 (Plane_t0903921088DEEDE1BCDEA5BF279EDBCFC9679AED * __this, const RuntimeMethod* method);
+// System.Single UnityEngine.Plane::get_distance()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Plane_get_distance_m5358B80C35E1E295C0133E7DC6449BB09C456DEE (Plane_t0903921088DEEDE1BCDEA5BF279EDBCFC9679AED * __this, const RuntimeMethod* method);
 // UnityEngine.Vector3 UnityEngine.Vector3::Normalize(UnityEngine.Vector3)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  Vector3_Normalize_mDEA51D0C131125535DA2B49B7281E0086ED583DC (Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___value0, const RuntimeMethod* method);
 // System.Single UnityEngine.Vector3::Dot(UnityEngine.Vector3,UnityEngine.Vector3)
@@ -15302,6 +15306,51 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// UnityEngine.Vector3 UnityEngine.Plane::get_normal()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  Plane_get_normal_m203D43F51C449990214D04F332E8261295162E84 (Plane_t0903921088DEEDE1BCDEA5BF279EDBCFC9679AED * __this, const RuntimeMethod* method)
+{
+	Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  L_0 = __this->get_m_Normal_0();
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C  Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  Plane_get_normal_m203D43F51C449990214D04F332E8261295162E84_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	int32_t _offset = 1;
+	Plane_t0903921088DEEDE1BCDEA5BF279EDBCFC9679AED * _thisAdjusted = reinterpret_cast<Plane_t0903921088DEEDE1BCDEA5BF279EDBCFC9679AED *>(__this + _offset);
+	return Plane_get_normal_m203D43F51C449990214D04F332E8261295162E84(_thisAdjusted, method);
+}
+// System.Single UnityEngine.Plane::get_distance()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Plane_get_distance_m5358B80C35E1E295C0133E7DC6449BB09C456DEE (Plane_t0903921088DEEDE1BCDEA5BF279EDBCFC9679AED * __this, const RuntimeMethod* method)
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = __this->get_m_Distance_1();
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		float L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C  float Plane_get_distance_m5358B80C35E1E295C0133E7DC6449BB09C456DEE_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	int32_t _offset = 1;
+	Plane_t0903921088DEEDE1BCDEA5BF279EDBCFC9679AED * _thisAdjusted = reinterpret_cast<Plane_t0903921088DEEDE1BCDEA5BF279EDBCFC9679AED *>(__this + _offset);
+	return Plane_get_distance_m5358B80C35E1E295C0133E7DC6449BB09C456DEE(_thisAdjusted, method);
+}
 // System.Void UnityEngine.Plane::.ctor(UnityEngine.Vector3,UnityEngine.Vector3)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Plane__ctor_m6535EAD5E675627C2533962F1F7890CBFA2BA44A (Plane_t0903921088DEEDE1BCDEA5BF279EDBCFC9679AED * __this, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___inNormal0, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___inPoint1, const RuntimeMethod* method)
 {
@@ -18270,6 +18319,23 @@ IL2CPP_EXTERN_C  int32_t Pose_GetHashCode_m17AC0D28F5BD43DE0CCFA4CC1A870C525E0D6
 	int32_t _offset = 1;
 	Pose_t2997DE3CB3863E4D78FCF42B46FC481818823F29 * _thisAdjusted = reinterpret_cast<Pose_t2997DE3CB3863E4D78FCF42B46FC481818823F29 *>(__this + _offset);
 	return Pose_GetHashCode_m17AC0D28F5BD43DE0CCFA4CC1A870C525E0D6066(_thisAdjusted, method);
+}
+// System.Boolean UnityEngine.Pose::op_Equality(UnityEngine.Pose,UnityEngine.Pose)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Pose_op_Equality_m412E2304E51F689B220BDAF927058DBEC0CEDD5B (Pose_t2997DE3CB3863E4D78FCF42B46FC481818823F29  ___a0, Pose_t2997DE3CB3863E4D78FCF42B46FC481818823F29  ___b1, const RuntimeMethod* method)
+{
+	bool V_0 = false;
+	{
+		Pose_t2997DE3CB3863E4D78FCF42B46FC481818823F29  L_0 = ___b1;
+		bool L_1 = Pose_Equals_m867264C8DF91FF8DC3AD957EF1625902CDEBAEDD((Pose_t2997DE3CB3863E4D78FCF42B46FC481818823F29 *)(&___a0), L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		bool L_2 = V_0;
+		return L_2;
+	}
 }
 // System.Void UnityEngine.Pose::.cctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Pose__cctor_mD40D2646613A057912BD183EC8BDCA0A9A001D3A (const RuntimeMethod* method)

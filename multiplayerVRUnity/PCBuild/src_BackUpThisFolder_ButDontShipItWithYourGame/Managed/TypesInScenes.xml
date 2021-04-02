@@ -167,6 +167,12 @@
 		<type fullname="Unity.XR.Oculus.OculusLoader" preserve="nothing"/>
 		<type fullname="Unity.XR.Oculus.OculusSettings" preserve="nothing"/>
 	</assembly>
+	<assembly fullname="Unity.XR.OpenVR">
+		<type fullname="Unity.XR.OpenVR.OpenVRSettings" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="Unity.XR.WindowsMixedReality">
+		<type fullname="UnityEngine.XR.WindowsMR.WindowsMRSettings" preserve="nothing"/>
+	</assembly>
 	<assembly fullname="UnityEngine.SpatialTracking">
 		<type fullname="UnityEngine.SpatialTracking.TrackedPoseDriver" preserve="nothing"/>
 	</assembly>
