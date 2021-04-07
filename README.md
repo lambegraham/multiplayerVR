@@ -1,3 +1,5 @@
+Code -> Download as .zip
+Unzip project. 
 
 To start project:
 
